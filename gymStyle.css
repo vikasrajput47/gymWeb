@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('gymPhoto.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+.left{
+display: inline-block;
+position: absolute;
+
+left: 30px;
+top: 16px;
+}
+.mid{
+display: block;
+width: 50%;
+margin:0px auto;
+
+top:20px;
+color: white;
+}
+.right{display: inline-block;
+position: absolute;
+right: 30px;
+top:20px;
+
+}
+.ul{
+display: inline-block;
+}
+.ul li{
+display: inline-block;
+padding: 9px;
+}
+.ul a{
+padding: 2px;
+color: white;
+text-decoration: none;
+}
+.ul a:hover{
+text-decoration: underline;
+}
+.logo{
+height: 63px;
+width: 60px; border-radius: 30px;
+}
+.contact button{
+font-family: cursive;
+border: 2px solid grey;
+border-radius: 10px;
+background-color: black;
+color:white
+}
+button:hover{
+text-decoration: underline;
+
+}
+.midBody{
+margin: 62px 70px;
+
+padding: 18px 27px;
+display: inline-block;
+
+}
+.listDetails{
+display: inline-block;
+padding: 20px 70px;
+margin: 0px 50px;
+
+}
+.input {
+padding: 19px 33px;
+margin: -36px -40px; 
+
+}
+
+li{
+list-style: none;
+}
+.buttn{
+padding: 2px 63px;
+margin: 1px 0px;
+border-radius: 7px;font-family: cursive;
+}
+input{
+border-radius: 7px;
+color: grey;
+font-family: cursive;
+}
